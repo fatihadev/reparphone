@@ -16,10 +16,15 @@
 {
  
     
-    --bg-color: rgb(47, 47, 78);
+    /* --bg-color: rgb(47, 47, 78);
     --second-bg-color: grey;
     --text-color: white;
-    --main-color: 	#3f7b79;
+    --main-color: 	#3f7b79; */
+
+    --bg-color:#1e5397;
+    --second-bg-color: #0A6AEC;
+    --text-color: rgb(255, 255, 255);
+    --main-color: 	#F5C00C;
 }
 
 html {
@@ -66,6 +71,13 @@ section
     cursor: default;
 }
 
+.logoimg 
+{
+    
+    width: 69px;
+
+}
+
 .navbar a 
 {
     font-size: 1.7rem;
@@ -94,6 +106,24 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.home-img img{
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2.4rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .home-content h3
@@ -263,11 +293,17 @@ margin-bottom: 5rem;
     margin-bottom: 4rem;
 }
 
+
+.bx-star
+{
+   color: #87DE16;
+}
+
 .galerie-container {
     display: flex;
  
   align-items: center;
-  gap: 138.5rem;
+  /* gap: 138.5rem; */
 }
 
 .galerie-container .galerie-box
@@ -276,13 +312,13 @@ margin-bottom: 5rem;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
-    display: flex;
+   
 } 
 
 .galerie-box img
 {
-  width: 100%;
-  padding: 1rem;
+  width: 31%;
+  padding: 2rem;
   border-radius: 9%;
   transition: .5s ease;
 }
@@ -303,6 +339,17 @@ margin: 1rem auto;
 text-align: center;
 margin-bottom: 3rem;
 }
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+    
+  }
+
+textarea::placeholder
+{
+    color: white;
+}
+
 
 .contact form .input-box
 {
@@ -393,9 +440,35 @@ cursor: pointer;
         padding: 10rem 3% 2rem ;
     }
 
+    .tarif {
+        padding-bottom: 5rem;
+    }
+
+
+    .galerie
+    {
+        padding-bottom: 7rem;
+    }
+
+    .contact{
+        min-height: auto;
+    }
+
     .footer {
         padding: 2rem 3%;
     }
+}
+
+@media screen and (min-width:770px)  and (max-width:1160px){
+
+    .home-img{
+        width: 50%;
+    }
+
+    .home-img img{
+        width: 42vw;
+    }
+    
 }
 
 @media (max-width: 768px){
@@ -412,13 +485,13 @@ cursor: pointer;
         left: 0;
         width: 100%;
         padding: 1.rem 3%;
+        background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        background: var(--bg-color);
         display: none;
     }
 
-    .navbar .active 
+    .navbar.active 
     {
         display: block;
     }
@@ -428,5 +501,171 @@ cursor: pointer;
         font-size: 2rem;
         margin: 3rem 0;
 
+    }
+
+    .home{
+        flex-direction: column ;
+    }
+
+    .home-content h3{
+        font-size: 2.6rem
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-img img{
+        width: 41vw;
+        margin-top: 4rem;
+    
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+
+    .about img 
+    {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .tarif h2{
+        margin-bottom: 3rem;
+    }
+
+    .galerie-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galerie-box img {
+       border-radius: 17%;
+
+        }
+}
+
+@media (max-width: 617px){
+
+    .galerie-container{
+        grid-template-columns: 1fr;
+    }
+
+    .tarifs-container{
+        display: grid;
+    }
+}
+
+@media (max-width: 450px){
+
+   html {
+    font-size: 50%;
+   }
+
+   .contact form .input-box input {
+    width: 100%;
+   }
+
+}
+
+@media (max-width: 365px)
+{
+    .home-img img
+    {
+        width: 135%;
+    }
+
+    .about-img img
+    {
+        width: 90vw;
+    }
+
+    .galerie-box img {
+        border-radius: 17%;
+        width: 49%;
+ 
+  }
+
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer p 
+    {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 200px)
+{
+    .home-content{
+        width: 100%;
+
+    }
+
+    .home-content h1 {
+        font-size: 20px;
+    }
+
+
+    .social-media a
+    {
+        width: 24px;
+        height: 26px;
+        margin: 15px 0px 17px 3px;
+    }
+
+    .tarifs-box
+    {
+        padding: 0;
+    }
+
+    .tarifs-box h3{
+        font-size: 9px;
+    }
+
+    .tarifs-box p
+    {
+        font-size: 9px;
+    }
+
+    .heading
+    {
+        
+    font-size: 2.5rem;
+
+    }
+
+
+    .galerie-box img {
+        border-radius: 17%;
+ 
+         }
+}
+
+@media screen and (min-width:201px)  and (max-width:280px)
+{
+    .home-content
+    {width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .social-media a {
+        
+        width: 26px;
+        height: 27px;
+        margin: 3rem 1.5rem 3rem 0;
+
+   
+
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 3.5rem;
     }
 }
