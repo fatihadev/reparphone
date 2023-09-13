@@ -25,6 +25,11 @@
     --second-bg-color: #0A6AEC;
     --text-color: rgb(255, 255, 255);
     --main-color: 	#F5C00C;
+
+    /* --bg-color:#00e1ff;
+    --second-bg-color: #0A6AEC;
+    --text-color: rgb(0, 0, 0);
+    --main-color: 	#0e0ecb; */
 }
 
 html {
@@ -134,11 +139,13 @@ section
 
 .home-content h3:nth-of-type(2) {
     margin-bottom: 2rem;
+
 }
 
 span{
  color: var(--main-color);
 }
+
 
 .home-content h1
 {
@@ -156,6 +163,7 @@ span{
 .home-content p 
 {
     font-size: 1.6rem;
+    width: 63%;
 }
 
 .social-media a
@@ -469,6 +477,14 @@ cursor: pointer;
         width: 42vw;
     }
     
+}
+
+@media (min-width: 1161px)
+{
+    .home-img img{
+        width: 418px;
+    }
+
 }
 
 @media (max-width: 768px){

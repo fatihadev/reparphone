@@ -52,7 +52,7 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading', {origin:'top'});
 ScrollReveal().reveal('.home-img, .tarifs-container, .galerie-box, .contact', {origin:'bottom'});
-ScrollReveal().reveal('.home-content p, .about-content', {origin:'left'});
+
 
 
 
