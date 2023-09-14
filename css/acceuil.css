@@ -209,7 +209,7 @@ span{
 
 .about
 {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -217,9 +217,55 @@ span{
 
 }
 
-.about-img img{
-    width: 35uw;
+
+.icon-media{
+    margin-left: 10%;
+   
+    margin-top: 5%;
+
+} 
+
+
+
+.texticon
+{
+    font-size: 18px;
+    color: rgb(235, 198, 13);
 }
+
+.icoon
+{
+  
+   
+    height: 22rem;
+   
+    font-size: 16rem;
+    color: white;
+    /* margin: 3rem 1.5rem 3rem 0; */
+    width: 30%;
+    transition: .5s ease;
+ 
+}
+
+.textdesc
+{
+  
+    width: 81%;
+    font-size: 16px;
+    margin-top: 3%;
+
+}
+
+/* .icon-media a:hover
+{
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+} */
+
+/* .about-img img{
+    width: 35uw;
+} */
 
 .heading
 {
@@ -227,23 +273,23 @@ span{
     font-size: 4.5rem;
 
 }
-
+/* 
 .about-content h2
 {
 text-align: left;
 line-height: 1.2;
-}
+} */
 
-.about-content h3
+/* .about-content h3
 {
     font-size: 2.6rem;
-}
+} */
 
-.about-content p
+/* .about-content p
 {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
-}
+} */
 
 .tarifs h2
 {
@@ -487,6 +533,8 @@ cursor: pointer;
 
 }
 
+
+
 @media (max-width: 768px){
     
     #menu-icon{
@@ -571,6 +619,23 @@ cursor: pointer;
         display: grid;
     }
 }
+@media (min-width: 451px) and (max-width:760px)
+{
+
+    .textdesc{
+width: 90%;
+font-size: 12px;
+margin-top: 3%;
+    }
+
+    .texticon{
+        font-size: 14px;
+    }
+
+    .icon-media{
+        margin-left: 4%;
+    }
+}
 
 @media (max-width: 450px){
 
@@ -581,6 +646,10 @@ cursor: pointer;
    .contact form .input-box input {
     width: 100%;
    }
+   .icoon {
+    font-size: 10rem;
+    width: 100%;
+}
 
 }
 
@@ -598,9 +667,24 @@ cursor: pointer;
 
     .galerie-box img {
         border-radius: 17%;
-        width: 49%;
+        width: 94%;
  
   }
+
+  .icon-media {
+    margin-left: 4%;
+    margin-top: 5%;
+   
+
+}
+
+
+    .icoon {
+        font-size: 10rem;
+        width: 100%;
+    }
+
+
 
     .footer{
         flex-direction: column-reverse;
@@ -632,6 +716,24 @@ cursor: pointer;
         margin: 15px 0px 17px 3px;
     }
 
+    .icoon{
+        width: 100%;
+        font-size: 13rem;
+    }
+
+    .icon-media
+    {
+        margin-left: 1px;
+    }
+
+    .textdesc{
+font-size: 10px;
+    }
+
+    .texticon
+    {
+        font-size: 13px;
+    }
     .tarifs-box
     {
         padding: 0;
@@ -658,7 +760,15 @@ cursor: pointer;
         border-radius: 17%;
  
          }
+
+         .galerie-box img {
+            border-radius: 17%;
+            width: 100%;
+        }
+        
+        
 }
+
 
 @media screen and (min-width:201px)  and (max-width:280px)
 {
@@ -678,6 +788,14 @@ cursor: pointer;
 
    
 
+    }
+
+    .icoon{
+
+      
+            width: 100%;
+           
+        
     }
 
     .heading {
