@@ -47,6 +47,7 @@ section
 {
     min-height: 100vh ;
     padding: 10rem 9% 2rem;
+    margin-left: 28rem;
 }
 
 .header
@@ -113,13 +114,14 @@ section
     display: flex;
     padding: 5rem;
     background-color: #0a6aec;
+    color: white;
 }
 
 .typeapple, .typeother
 {
     padding: 75px;
-    background: #1976D2;
-    width: 100%;
+    background: #ffffff;
+    width: 70%;
     text-align: center;
     border: #ffffff solid 2px;
     border-radius: 27px;
@@ -155,7 +157,7 @@ section
 }
 
 .imgbrands
-{
+{margin-bottom: 25px;
     width: 11%
 }
 
