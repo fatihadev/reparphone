@@ -1,0 +1,123 @@
+* /* utilisé pour sélectionner tous les éléments d'un fichier HTML */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth; /*Le défilement est doux et utilise une fonction de minutage définie*/
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+:root /*utile lorsqu'on déclare des propriétés CSS personnalisées globales*/
+
+{
+ 
+    
+    /* --bg-color: rgb(47, 47, 78);
+    --second-bg-color: grey;
+    --text-color: white;
+    --main-color: 	#3f7b79; */
+
+    --bg-color:#1e5397;
+    --second-bg-color: #0A6AEC;
+    --text-color: rgb(255, 255, 255);
+    --main-color: 	#F5C00C;
+
+    /* --bg-color:#00e1ff;
+    --second-bg-color: #0A6AEC;
+    --text-color: rgb(0, 0, 0);
+    --main-color: 	#0e0ecb; */
+}
+
+html {
+    font-size: 65%;
+    overflow-x: hidden; /*Le contenu est rogné afin de tenir horizontalement dans la boîte de remplissage*/
+}
+
+body
+{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section
+{
+    min-height: 100vh ;
+    padding: 16rem;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.sticky
+{
+    border-bottom: 1.rem solid rgba(0, 0, 0);
+}
+
+.logo
+{
+    font-size: 2.5rem ;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+
+.logoimg 
+{
+    
+    width: 69px;
+
+}
+
+.navbar a 
+{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active
+{
+
+    color: var(--main-color);
+   
+}
+
+#menu-icon
+{
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
+
+    #iphone
+    {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #image
+    {
+        width: 2rem;
+    }
+
+    .nosiphones
+    {
+
+    }
