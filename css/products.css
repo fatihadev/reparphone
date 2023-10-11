@@ -106,18 +106,9 @@ section
     display: none;
 }
 
-    #iphone
-    {
-        font-size: 15px;
-        text-align: center;
-    }
+#myData 
+{
+    font-size: 55px;
+}
 
-    #image
-    {
-        width: 2rem;
-    }
-
-    .nosiphones
-    {
-
-    }
+  
