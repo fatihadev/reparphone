@@ -106,9 +106,12 @@ section
     display: none;
 }
 
-#myData 
+.card
 {
-    font-size: 55px;
+    background: wheat;
+  padding-top: 22%;
+  width: 20%;
 }
+
 
   

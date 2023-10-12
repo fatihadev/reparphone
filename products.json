@@ -1,20 +1,26 @@
 [
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 14",
+        "title": "iphone 13",
         "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "price": "29.99"
 
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 13",
+        "title": "iphone 12",
         "description": "cliquez pour acceder aux tarifs",
         "price": "9.99"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone",
+        "title": "iphone 11",
+        "description": "cliquez pour acceder aux tarifs",
+        "price": "9.99"
+    },
+    {
+        "image": "images/iphone14pro.jpg",
+        "title": "iphone 18",
         "description": "cliquez pour acceder aux tarifs",
         "price": "9.99"
     }
