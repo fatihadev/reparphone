@@ -106,12 +106,52 @@ section
     display: none;
 }
 
-.card
-{
-    background: wheat;
-  padding-top: 22%;
-  width: 20%;
+h1{
+    font-size: 50px;
+    margin-top: 16rem;
+    text-align: center;
+    background: #ffffff;
+    color: black;
+    height: 18rem;
+    padding: 61px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card-template {
+    
+        background-color: #fff;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        width: 30rem;
+        margin: 10px;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 0px 0px 19px 10px #3fa8a8;
+        margin-bottom: 3%;
 }
 
 
-  
+.product-image {
+    max-width: 47%;
+    /* height: auto; */
+}
+
+.product-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.product-description {
+    color: #666;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #f00;
+}

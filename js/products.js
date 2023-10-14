@@ -23,8 +23,8 @@ getData().then((products) => {
         
         productCard.querySelector(".product-image").src = product.image;
         productCard.querySelector(".product-title").textContent = product.title;
-        productCard.querySelector(".product-description").textContent = product.description;
-        productCard.querySelector(".product-price").textContent = `Prix : ${product.price}`;
+        // productCard.querySelector(".product-description").textContent = product.description;
+        // productCard.querySelector(".product-price").textContent = `Prix : ${product.price}`;
 
         productContainer.appendChild(productCard);
     });
