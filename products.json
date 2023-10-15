@@ -1,88 +1,165 @@
 [
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 13",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "29.99"
+        "title": "iphone 14 pro",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
 
     },
     {
         "image": "images/iphone14pro.jpg",
+        "title": "iphone 14",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
+    },
+    {
+        "image": "images/iphone14pro.jpg",
+        "title": "iphone 13 Pro max",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
+    },
+    {
+        "image": "images/iphone14pro.jpg",
+        "title": "iphone 13 Pro",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
+    },
+    {
+        "image": "images/iphone14pro.jpg",
+        "title": "iphone 13",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
+    },
+    {
+        "image": "images/iphone14pro.jpg",
+        "title": "iphone 12 Pro max",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
+    },
+    {
+        "image": "images/iphone14pro.jpg",
+        "title": "iphone 12 Pro",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
+    },
+    {
+        "image": "images/iphone14pro.jpg",
         "title": "iphone 12",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
+    },
+    {
+        "image": "images/iphone14pro.jpg",
+        "title": "iphone 12 mini",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
+    },
+    {
+        "image": "images/iphone14pro.jpg",
+        "title": "iphone 11 Pro max",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
+    },
+    {
+        "image": "images/iphone14pro.jpg",
+        "title": "iphone 11 Pro",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
         "title": "iphone 11",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone iphone XS max",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone XR",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone X-XS",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone 8 Plus",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone 8",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone 7",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone 6s Plus",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone 6 Plus",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone 6s",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone 6",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     },
     {
         "image": "images/iphone14pro.jpg",
-        "title": "iphone 18",
-        "description": "cliquez pour acceder aux tarifs",
-        "price": "9.99"
+        "title": "iphone 5s/SE",
+        "Batterie": "30€",
+        "Connecteur de charge": "30€",
+        "Désoxydation": "30€"
     }
 
 ]

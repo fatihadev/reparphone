@@ -18,8 +18,11 @@ getData().then((products) => {
     const productContainer = document.getElementById("product");
     const productTemplate = document.querySelector(".card-template");
 
+    
+
     products.forEach(product => {
         const productCard = productTemplate.cloneNode(true);
+        productCard.classList.remove("hidden"); // Rend la carte visible
         
         productCard.querySelector(".product-image").src = product.image;
         productCard.querySelector(".product-title").textContent = product.title;
