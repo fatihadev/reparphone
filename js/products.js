@@ -1,5 +1,3 @@
-// mes données et en cas d'erreurs
-
 const getData = async () => {
     try {
         const response = await fetch("products.json");
@@ -13,22 +11,42 @@ const getData = async () => {
     }
 };
 
-// on prends les elements html
 getData().then((products) => {
     const productContainer = document.getElementById("product");
     const productTemplate = document.querySelector(".card-template");
 
-    
-
     products.forEach(product => {
         const productCard = productTemplate.cloneNode(true);
         productCard.classList.remove("hidden"); // Rend la carte visible
-        
+
         productCard.querySelector(".product-image").src = product.image;
         productCard.querySelector(".product-title").textContent = product.title;
-        // productCard.querySelector(".product-description").textContent = product.description;
-        // productCard.querySelector(".product-price").textContent = `Prix : ${product.price}`;
+
+        // Ajoutez un gestionnaire d'événements pour le bouton "Voir les détails"
+        const viewDetailsButton = productCard.querySelector(".view-details");
+        viewDetailsButton.addEventListener("click", () => {
+            // Redirige l'utilisateur vers la page des détails du produit
+            window.location.href =`card.html?id=${product.id}`;
+        });
+        
 
         productContainer.appendChild(productCard);
     });
+
+    // Fonction pour afficher les détails du produit
+    function displayProductDetails(product) {
+        const productDetailsContainer = document.getElementById("product-details");
+    
+        // Construir le contenu HTML pour afficher les détails d'un produiit
+        const productDetailsHTML = `
+            <h2>${product.title}</h2>
+            <p>Connecteur de charge : ${product['Connecteur de charge']}</p>
+            <p>Désoxydation : ${product.Désoxydation}</p>
+            <p>Batterie : ${product.Batterie}</p>
+            <!-- Ajoutez d'autres détails du produit si nécessaire -->
+        `;
+    
+        // Affichez les détails du produit dans la section "product-details"
+        productDetailsContainer.innerHTML = productDetailsHTML;
+    }
 });

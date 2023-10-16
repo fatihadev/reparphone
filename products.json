@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 14 pro",
         "Batterie": "30€",
@@ -8,20 +9,23 @@
 
     },
     {
-        "image": "images/iphone14pro.jpg",
+        "id": 2,
+        "image": "images/iphone14.png",
         "title": "iphone 14",
         "Batterie": "30€",
         "Connecteur de charge": "30€",
         "Désoxydation": "30€"
     },
     {
-        "image": "images/iphone14pro.jpg",
+        "id": 3,
+        "image": "images/13promax.png",
         "title": "iphone 13 Pro max",
-        "Batterie": "30€",
+        "Batterie": "70€",
         "Connecteur de charge": "30€",
         "Désoxydation": "30€"
     },
     {
+        "id": 4,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 13 Pro",
         "Batterie": "30€",
@@ -29,6 +33,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 5,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 13",
         "Batterie": "30€",
@@ -36,6 +41,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 6,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 12 Pro max",
         "Batterie": "30€",
@@ -43,6 +49,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 7,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 12 Pro",
         "Batterie": "30€",
@@ -50,6 +57,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 8,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 12",
         "Batterie": "30€",
@@ -57,6 +65,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 9,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 12 mini",
         "Batterie": "30€",
@@ -64,6 +73,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 10,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 11 Pro max",
         "Batterie": "30€",
@@ -71,6 +81,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 11,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 11 Pro",
         "Batterie": "30€",
@@ -78,6 +89,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 12,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 11",
         "Batterie": "30€",
@@ -85,6 +97,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 13,
         "image": "images/iphone14pro.jpg",
         "title": "iphone iphone XS max",
         "Batterie": "30€",
@@ -92,6 +105,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 14,
         "image": "images/iphone14pro.jpg",
         "title": "iphone XR",
         "Batterie": "30€",
@@ -99,6 +113,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 15,
         "image": "images/iphone14pro.jpg",
         "title": "iphone X-XS",
         "Batterie": "30€",
@@ -106,6 +121,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 16,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 8 Plus",
         "Batterie": "30€",
@@ -113,6 +129,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 17,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 8",
         "Batterie": "30€",
@@ -120,6 +137,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 18,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 7",
         "Batterie": "30€",
@@ -127,6 +145,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 19,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 6s Plus",
         "Batterie": "30€",
@@ -134,6 +153,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 20,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 6 Plus",
         "Batterie": "30€",
@@ -141,6 +161,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 21,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 6s",
         "Batterie": "30€",
@@ -148,6 +169,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 22,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 6",
         "Batterie": "30€",
@@ -155,6 +177,7 @@
         "Désoxydation": "30€"
     },
     {
+        "id": 23,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 5s/SE",
         "Batterie": "30€",
