@@ -50,3 +50,5 @@ getData().then((products) => {
         productDetailsContainer.innerHTML = productDetailsHTML;
     }
 });
+
+
