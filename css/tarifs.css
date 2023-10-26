@@ -233,3 +233,42 @@ section
 
     }
 } 
+
+@media (max-width: 150px){
+
+
+    h1 {
+
+        font-size: 27px;
+    }
+section
+    {
+        margin: 0;
+        padding: 5rem 1rem 2rem;
+        min-height: 0;
+    }
+
+    .typeapple, .typeother{
+        width: 94%;
+        padding: 0;
+    }
+
+    .bxl-apple{
+        font-size: 6rem;
+    }
+
+    .btncontact
+    {
+        margin-top: 12%;
+    }
+
+    .btn{
+        font-size: 14px;
+        padding: 4px 14px 9px 15px;
+    }
+
+    .imgbrands {
+        margin-bottom: 11px;
+        width: 32%;
+    }    
+}

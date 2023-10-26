@@ -159,6 +159,43 @@ h1{
     max-width: 112px;
 }
 
+@media (max-width: 150px)
+{
+    .product-details{
+        width: 92%;
+    }
+
+    h1
+    {
+        font-size: 25px;
+        margin-top:16rem;
+        text-align: center;
+        height:12rem;
+        padding:28px;
+    }
+
+    .product-details img {
+        max-width: 86px;
+    }
+
+    .product-details h2 {
+        font-size: 21px;
+        margin-bottom: 23px;
+    }
+
+    .product-details p {
+        font-size: 10px;
+        margin: 5px 0;
+    }
+    
+
+
+
+
+
+
+}
+
 
 
 
