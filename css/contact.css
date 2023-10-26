@@ -45,7 +45,7 @@ body
 
 section
 {
-    padding: 10rem 9% 2rem;
+    padding-top: 22rem;
 }
 
 .header
@@ -113,12 +113,12 @@ section
 
 p
 {
-    font-size: 22px;
+    font-size: 12px;
 }
 
 h2 
 {
-    font-size: 28px;
+    font-size: 14px;
 }
 
 .horaire
@@ -140,4 +140,28 @@ h2
 
     text-align: center;
     padding: 2rem 9% 2rem;
+}
+
+@media (max-width:216px) {
+
+    .navbar a {
+        font-size: 1rem;
+   
+        margin-left: 1rem;
+    } 
+
+    p
+{
+    font-size: 12px;
+}
+
+h2
+{
+font-size: 14px;
+}
+
+section
+{
+padding-top: 22rem;
+}    
 }

@@ -162,8 +162,8 @@ span{
 
 .home-content p 
 {
-    font-size: 1.6rem;
-    width: 63%;
+    font-size: 1.7rem;
+    width: 100%;
 }
 
 .social-media a
@@ -605,8 +605,9 @@ cursor: pointer;
 
     .galerie-box img {
        border-radius: 17%;
+       width: 49%;
 
-        }
+    }
 }
 
 @media (max-width: 617px){
@@ -657,7 +658,7 @@ margin-top: 3%;
 {
     .home-img img
     {
-        width: 135%;
+        width: 100%;
     }
 
     .about-img img
