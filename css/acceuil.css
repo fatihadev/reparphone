@@ -491,7 +491,7 @@ cursor: pointer;
     }
 
     section {
-        padding: 10rem 3% 2rem ;
+        padding: 15rem 3% 2rem ;
     }
 
     .tarif {
@@ -607,6 +607,15 @@ cursor: pointer;
        border-radius: 17%;
        width: 49%;
 
+    }
+
+    section {
+        min-height: 0;
+    }
+
+    .icoon
+    {
+        font-size:12rem;
     }
 }
 

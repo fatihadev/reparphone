@@ -45,7 +45,7 @@ body
 
 section
 {
-    padding-top: 22rem;
+    padding-top: 7rem;
 }
 
 .header
@@ -109,6 +109,14 @@ section
 {
     font-size: 71px;
     color: #F5C00C;
+    display: block;
+}
+
+a 
+{
+    color: white;
+    text-decoration: underline;
+    font-size: 17px;
 }
 
 p
@@ -139,7 +147,7 @@ h2
 {
 
     text-align: center;
-    padding: 2rem 9% 2rem;
+  
 }
 
 @media (max-width:216px) {
@@ -162,6 +170,22 @@ font-size: 14px;
 
 section
 {
-padding-top: 22rem;
+padding-top: 7rem;
 }    
+}
+
+@media (min-width: 320px)
+ {
+
+h2 {
+font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a{
+    font-size: 22px;
+}
 }
