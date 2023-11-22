@@ -150,6 +150,8 @@ h2
   
 }
 
+
+
 @media (max-width:216px) {
 
     .navbar a {
@@ -174,6 +176,25 @@ padding-top: 7rem;
 }    
 }
 
+.footer
+
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem 8%;
+    background: var(--second-bg-color);
+}
+
+.footer-text p
+{
+    font-size: 1.6rem;
+
+
+}
+
+
 @media (min-width: 320px)
  {
 
@@ -189,3 +210,12 @@ a{
     font-size: 22px;
 }
 }
+
+@media (max-width: 320px){
+
+    .footer {
+        padding: 5rem 8%;
+        margin-top: 91px;
+    }
+}
+

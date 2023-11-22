@@ -159,6 +159,27 @@ h1{
     max-width: 112px;
 }
 
+
+.footer
+
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem 8%;
+    background: var(--second-bg-color);
+    margin-top: 34rem;
+}
+
+.footer-text p
+{
+    font-size: 1.6rem;
+
+
+}
+
+
 @media (max-width: 150px)
 {
     .product-details{
@@ -189,11 +210,29 @@ h1{
     }
     
 
+}
+
+@media (max-width:382px) {
+    h1{
+        font-size: 27px;
+        margin-top: 16rem;
+        text-align: center;
+        background: #ffffff;
+        color: black;
+        height: 16rem;
+        padding: 61px 0 0 0;
+    }
+}
 
 
+@media (max-width:180px){
 
-
-
+    .navbar a {
+        font-size: 13px;
+        color: var(--text-color);
+        margin-left: 1rem;
+        transition: .3s;
+    }
 }
 
 
