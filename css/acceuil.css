@@ -357,7 +357,7 @@ margin-bottom: 5rem;
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border: 2rem solid var(--bg-color);
+    border: 1rem solid var(--bg-color);
     background-color: var(--second-bg-color);
     transition: .5s ease;
 }
