@@ -101,5 +101,3 @@ ScrollReveal().reveal('.home-img, .tarifs-container, .galerie-box, .contact', {o
 
 
 
-
-
