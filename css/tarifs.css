@@ -45,9 +45,9 @@ body
 
 section
 {
-    min-height: 100vh ;
+    min-height: 80vh ;
     padding: 10rem 9% 2rem;
-    margin-left: 28rem;
+ 
 }
 
 .header
@@ -103,7 +103,7 @@ section
 
 
 .title-page-content {
-    font-size: 5rem;
+    font-size: 2rem;
     justify-content: center;
     margin-top: 18rem;
     display: flex;
@@ -114,19 +114,22 @@ section
 
 .typeapple, .typeother
 {
-    padding: 75px;
+    padding: 29px;
     background: #ffffff;
-    width: 70%;
+    width: 63rem;
     text-align: center;
     border: #ffffff solid 2px;
     border-radius: 27px;
-    margin-bottom: 5rem;
+    margin: 0 auto;
+
    
 }
 
 .typeapple
 {
     display: grid;
+    display: grid;
+    margin-bottom: 5rem;
 }
 
 .bxl-apple
@@ -205,15 +208,8 @@ section
     57.26 */
     
     .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1.rem 3%;
-        background: var(--bg-color);
-        border-top: .1rem solid rgb(255, 255, 255);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        display: none;
+   
+        display: flex;
     }
 
     .navbar.active 
@@ -227,8 +223,11 @@ section
         margin: 3rem 0;
 
     }
+    .typeapple, .typeother{
+        width: 100%;
+    }
 } 
-
+/* 
 @media (max-width: 150px){
 
 
@@ -266,4 +265,38 @@ section
         margin-bottom: 11px;
         width: 32%;
     }    
+} */
+
+
+@media (max-width: 350px){
+
+    h1{
+        font-size: 36px;
+    }
+    .title-page-content {
+    font-size: 2rem;
+    justify-content: center;
+    margin-top: 15rem;
+    display: flex;
+    padding: 5rem 1rem 5rem 1rem;
+    }
+} 
+@media (max-width: 300px){
+
+    .imgbrands {
+        margin-bottom: 25px;
+        width: 23%;
+    }
+
+    .btn{
+        padding: 7px;
+    }
+
+    .bxl-apple {
+    font-size: 8rem;
+    }
+
+    .typeapple, .typeother {
+        padding: 15px;
+    }
 }
