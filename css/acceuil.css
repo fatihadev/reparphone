@@ -58,8 +58,8 @@ body
 
 .loading::before {
     content: "";
-    width: 264px;
-    height: 275px;
+    width: 184px;
+    height: 185px;
     border: 10px solid transparent;
     border-top-color: #2f00bc;
     border-radius: 240px;
@@ -264,8 +264,7 @@ span{
 
 
 .icon-media{
-    margin-left: 10%;
-   
+    margin-left: 21%;
     margin-top: 5%;
 
 } 
