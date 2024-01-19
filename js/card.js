@@ -38,6 +38,7 @@ function displayProductDetails(product) {
         <p>Connecteur de charge : ${product['Connecteur de charge']}</p>
         <p>Désoxydation : ${product.Désoxydation}</p>
         <p>Batterie : ${product.Batterie}</p>
+        <p>Ecran : ${product.Ecran}</p>
         <!-- Ajoutez d'autres détails du produit si nécessaire -->
     `;
 }

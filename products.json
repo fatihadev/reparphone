@@ -3,185 +3,216 @@
         "id": 1,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 14 pro",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "120€",
+        "Ecran" : "480€",
+        "Connecteur de charge": "150€",
+        "Désoxydation": "90€"
 
     },
     {
         "id": 2,
         "image": "images/iphone14.png",
         "title": "iphone 14",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "90€",
+        "Ecran" : "220€",
+        "Connecteur de charge": "150€",
+        "Désoxydation": "80€"
     },
     {
         "id": 3,
         "image": "images/13 Pro Max.jpg",
         "title": "iphone 13 Pro max",
-        "Batterie": "70€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "120€",
+        "Ecran" : "390€",
+        "Connecteur de charge": "120€",
+        "Désoxydation": "90€"
     },
     {
         "id": 4,
         "image": "images/iphone14pro.jpg",
         "title": "iphone 13 Pro",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "80€",
+        "Ecran" : "300€",
+        "Connecteur de charge": "100€",
+        "Désoxydation": "90€"
     },
     {
         "id": 5,
         "image": "images/iphone13.jpg",
         "title": "iphone 13",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "80€",
+        "Ecran" : "200€",
+        "Connecteur de charge": "90€",
+        "Désoxydation": "70€"
     },
     {
         "id": 6,
         "image": "images/12 pro max.jpg",
         "title": "iphone 12 Pro max",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "70€",
+        "Ecran" : "200€",
+        "Connecteur de charge": "90€",
+        "Désoxydation": "70€"
     },
     {
         "id": 7,
         "image": "images/12pro.jpg",
         "title": "iphone 12 Pro",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "70€",
+        "Ecran" : "180€",
+        "Connecteur de charge": "80€",
+        "Désoxydation": "60€"
     },
     {
         "id": 8,
         "image": "images/12.jpg",
         "title": "iphone 12",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "70€",
+        "Ecran" : "180€",
+        "Connecteur de charge": "70€",
+        "Désoxydation": "60€"
     },
     {
         "id": 9,
         "image": "images/12mini.jpg",
         "title": "iphone 12 mini",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "70€",
+        "Ecran" : "180€",
+        "Connecteur de charge": "70€",
+        "Désoxydation": "60€"
     },
     {
         "id": 10,
         "image": "images/11promax.jpg",
         "title": "iphone 11 Pro max",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "60€",
+        "Ecran" : "150€",
+        "Connecteur de charge": "60€",
+        "Désoxydation": "60€"
     },
     {
         "id": 11,
         "image": "images/11pro.jpg",
         "title": "iphone 11 Pro",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "60€",
+        "Ecran" : "140€",
+        "Connecteur de charge": "60€",
+        "Désoxydation": "60€"
     },
     {
         "id": 12,
         "image": "images/iphone11.jpg",
         "title": "iphone 11",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "60€",
+        "Ecran" : "90€",
+        "Connecteur de charge": "60€",
+        "Désoxydation": "60€"
     },
     {
         "id": 13,
         "image": "images/xsmaax&xs.jpg",
         "title": "iphone XS max",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "60€",
+        "Ecran" : "120€",
+        "Connecteur de charge": "60€",
+        "Désoxydation": "50€"
     },
     {
         "id": 14,
         "image": "images/xr.jpg",
         "title": "iphone XR",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "60€",
+        "Ecran" : "90€",
+        "Connecteur de charge": "60€",
+        "Désoxydation": "50€"
     },
     {
         "id": 15,
         "image": "images/x.jpg",
         "title": "iphone X-XS",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "50€",
+        "Ecran" : "90€",
+        "Connecteur de charge": "60€",
+        "Désoxydation": "50€"
     },
     {
         "id": 16,
         "image": "images/8plus.jpg",
         "title": "iphone 8 Plus",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "40€",
+        "Ecran" : "70€",
+        "Connecteur de charge": "50€",
+        "Désoxydation": "40€"
     },
     {
         "id": 17,
         "image": "images/88.jpg",
         "title": "iphone 8",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "Batterie": "40€",
+        "Ecran" : "60€",
+        "Connecteur de charge": "60€",
+        "Désoxydation": "40€"
     },
     {
         "id": 18,
         "image": "images/7.jpg",
-        "title": "iphone 7",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "title": "iphone 7 Plus",
+        "Batterie": "40€",
+        "Ecran" : "70€",
+        "Connecteur de charge": "50€",
+        "Désoxydation": "40€"
     },
     {
         "id": 19,
-        "image": "images/6splus.jpg",
-        "title": "iphone 6s Plus",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "image": "images/7.jpg",
+        "title": "iphone 7",
+        "Batterie": "40€",
+        "Ecran" : "60€",
+        "Connecteur de charge": "50€",
+        "Désoxydation": "40€"
     },
     {
         "id": 20,
         "image": "images/6splus.jpg",
-        "title": "iphone 6 Plus",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "title": "iphone 6s Plus",
+        "Batterie": "40€",
+        "Ecran" : "50€",
+        "Connecteur de charge": "40€",
+        "Désoxydation": "40€"
     },
     {
         "id": 21,
-        "image": "images/6s.jpg",
-        "title": "iphone 6s",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "image": "images/6splus.jpg",
+        "Batterie": "40€",
+        "Ecran" : "45€",
+        "Connecteur de charge": "40€",
+        "Désoxydation": "40€"
     },
     {
         "id": 22,
-        "image": "images/iphone14pro.jpg",
-        "title": "iphone 6",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
-        "Désoxydation": "30€"
+        "image": "images/6s.jpg",
+        "title": "iphone 6s",
+        "Batterie": "40€",
+        "Ecran" : "40€",
+        "Connecteur de charge": "40€",
+        "Désoxydation": "40€"
     },
     {
         "id": 23,
+        "image": "images/iphone14pro.jpg",
+        "title": "iphone 6",
+        "Batterie": "40€",
+        "Ecran" : "40€",
+        "Connecteur de charge": "40€",
+        "Désoxydation": "40€"
+    },
+    {
+        "id": 24,
         "image": "images/se.jpg",
         "title": "iphone 5s/SE",
-        "Batterie": "30€",
-        "Connecteur de charge": "30€",
+        "Batterie": "40€",
+        "Ecran" : "40€",
+        "Connecteur de charge": "40€",
         "Désoxydation": "30€"
     }
 
