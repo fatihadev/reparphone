@@ -1,30 +1,34 @@
-* /* utilisé pour sélectionner tous les éléments d'un fichier HTML */
-{
+*
+
+/* utilisé pour sélectionner tous les éléments d'un fichier HTML */
+    {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
     outline: none;
-    scroll-behavior: smooth; /*Le défilement est doux et utilise une fonction de minutage définie*/
+    scroll-behavior: smooth;
+    /*Le défilement est doux et utilise une fonction de minutage définie*/
     font-family: 'Poppins', sans-serif;
-   
+
 }
 
-:root /*utile lorsqu'on déclare des propriétés CSS personnalisées globales*/
+:root
+/*utile lorsqu'on déclare des propriétés CSS personnalisées globales*/
 
-{
- 
-    
+    {
+
+
     /* --bg-color: rgb(47, 47, 78);
     --second-bg-color: grey;
     --text-color: white;
     --main-color: 	#3f7b79; */
 
-    --bg-color:#1e5397;
+    --bg-color: #1e5397;
     --second-bg-color: #0A6AEC;
     --text-color: rgb(255, 255, 255);
-    --main-color: 	#F5C00C;
+    --main-color: #F5C00C;
 
     /* --bg-color:#00e1ff;
     --second-bg-color: #0A6AEC;
@@ -34,22 +38,20 @@
 
 html {
     font-size: 65%;
-    overflow-x: hidden; /*Le contenu est rogné afin de tenir horizontalement dans la boîte de remplissage*/
+    overflow-x: hidden;
+    /*Le contenu est rogné afin de tenir horizontalement dans la boîte de remplissage*/
 }
 
-body
-{
+body {
     background: var(--bg-color);
     color: var(--text-color);
 }
 
-section
-{
+section {
     padding-top: 7rem;
 }
 
-.header
-{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -62,28 +64,24 @@ section
     z-index: 100;
 }
 
-.header.sticky
-{
+.header.sticky {
     border-bottom: 1.rem solid rgba(0, 0, 0);
 }
 
-.logo
-{
-    font-size: 2.5rem ;
+.logo {
+    font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
 }
 
-.logoimg 
-{
-    
+.logoimg {
+
     width: 69px;
 
 }
 
-.navbar a 
-{
+.navbar a {
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
@@ -91,63 +89,54 @@ section
 }
 
 .navbar a:hover,
-.navbar a.active
-{
+.navbar a.active {
 
     color: var(--main-color);
-   
+
 }
 
-#menu-icon
-{
+#menu-icon {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
 }
 
-.bx
-{
+.bx {
     font-size: 71px;
     color: #F5C00C;
     display: block;
 }
 
-a 
-{
+a {
     color: white;
     text-decoration: underline;
     font-size: 17px;
 }
 
-p
-{
+p {
     font-size: 12px;
 }
 
-h2 
-{
+h2 {
     font-size: 14px;
 }
 
-.horaire
-{
+.horaire {
     text-align: center;
 
 }
 
-.adresse
-{
-    
+.adresse {
+
     text-align: center;
     padding: 2rem 9% 2rem;
 
 }
 
-.contact
-{
+.contact {
 
     text-align: center;
-  
+
 }
 
 
@@ -156,29 +145,24 @@ h2
 
     .navbar a {
         font-size: 1rem;
-   
+
         margin-left: 1rem;
-    } 
+    }
 
-    p
-{
-    font-size: 12px;
+    p {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    section {
+        padding-top: 7rem;
+    }
 }
 
-h2
-{
-font-size: 14px;
-}
-
-section
-{
-padding-top: 7rem;
-}    
-}
-
-.footer
-
-{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -187,35 +171,32 @@ padding-top: 7rem;
     background: var(--second-bg-color);
 }
 
-.footer-text p
-{
+.footer-text p {
     font-size: 1.6rem;
 
 
 }
 
 
-@media (min-width: 320px)
- {
+@media (min-width: 320px) {
 
-h2 {
-font-size: 22px;
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 22px;
+    }
 }
 
-p {
-    font-size: 18px;
-}
-
-a{
-    font-size: 22px;
-}
-}
-
-@media (max-width: 320px){
+@media (max-width: 320px) {
 
     .footer {
         padding: 5rem 8%;
         margin-top: 91px;
     }
 }
-

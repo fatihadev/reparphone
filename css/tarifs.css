@@ -1,30 +1,34 @@
-* /* utilisé pour sélectionner tous les éléments d'un fichier HTML */
-{
+*
+
+/* utilisé pour sélectionner tous les éléments d'un fichier HTML */
+    {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
     outline: none;
-    scroll-behavior: smooth; /*Le défilement est doux et utilise une fonction de minutage définie*/
+    scroll-behavior: smooth;
+    /*Le défilement est doux et utilise une fonction de minutage définie*/
     font-family: 'Poppins', sans-serif;
-   
+
 }
 
-:root /*utile lorsqu'on déclare des propriétés CSS personnalisées globales*/
+:root
+/*utile lorsqu'on déclare des propriétés CSS personnalisées globales*/
 
-{
- 
-    
+    {
+
+
     /* --bg-color: rgb(47, 47, 78);
     --second-bg-color: grey;
     --text-color: white;
     --main-color: 	#3f7b79; */
 
-    --bg-color:#1e5397;
+    --bg-color: #1e5397;
     --second-bg-color: #0A6AEC;
     --text-color: rgb(255, 255, 255);
-    --main-color: 	#F5C00C;
+    --main-color: #F5C00C;
 
     /* --bg-color:#00e1ff;
     --second-bg-color: #0A6AEC;
@@ -34,24 +38,22 @@
 
 html {
     font-size: 65%;
-    overflow-x: hidden; /*Le contenu est rogné afin de tenir horizontalement dans la boîte de remplissage*/
+    overflow-x: hidden;
+    /*Le contenu est rogné afin de tenir horizontalement dans la boîte de remplissage*/
 }
 
-body
-{
+body {
     background: var(--bg-color);
     color: var(--text-color);
 }
 
-section
-{
-    min-height: 80vh ;
+section {
+    min-height: 80vh;
     padding: 10rem 9% 2rem;
- 
+
 }
 
-.header
-{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -64,28 +66,24 @@ section
     z-index: 100;
 }
 
-.header.sticky
-{
+.header.sticky {
     border-bottom: 1.rem solid rgba(0, 0, 0);
 }
 
-.logo
-{
-    font-size: 2.5rem ;
+.logo {
+    font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
 }
 
-.logoimg 
-{
-    
+.logoimg {
+
     width: 69px;
 
 }
 
-.navbar a 
-{
+.navbar a {
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
@@ -93,11 +91,10 @@ section
 }
 
 .navbar a:hover,
-.navbar a.active
-{
+.navbar a.active {
 
     color: var(--main-color);
-   
+
 }
 
 
@@ -112,8 +109,8 @@ section
     color: white;
 }
 
-.typeapple, .typeother
-{
+.typeapple,
+.typeother {
     padding: 29px;
     background: #ffffff;
     width: 63rem;
@@ -122,25 +119,22 @@ section
     border-radius: 27px;
     margin: 0 auto;
 
-   
+
 }
 
-.typeapple
-{
+.typeapple {
     display: grid;
     display: grid;
     margin-bottom: 5rem;
 }
 
-.bxl-apple
-{
- color: black;
- font-size: 11rem;
+.bxl-apple {
+    color: black;
+    font-size: 11rem;
 
 }
 
-.btn
-{
+.btn {
     font-size: 2rem;
     color: white;
     border-radius: 23px;
@@ -149,19 +143,17 @@ section
     background: linear-gradient(45deg, #1E88E5, #7986CB);
 }
 
-.btncontact
-{
+.btncontact {
     margin-top: 3%;
 }
 
-.imgbrands
-{margin-bottom: 25px;
+.imgbrands {
+    margin-bottom: 25px;
     width: 11%
 }
 
 
-.footer
-{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -170,15 +162,13 @@ section
     background: var(--second-bg-color);
 }
 
-.footer-text p
-{
+.footer-text p {
     font-size: 1.6rem;
 
 
 }
 
-.footer-iconTop a 
-{
+.footer-iconTop a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -187,46 +177,47 @@ section
 
 }
 
-.footer-iconTop a:hover
-{
+.footer-iconTop a:hover {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-.footer-iconTop a i 
-{
+.footer-iconTop a i {
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
 
 
-@media (max-width: 768px){
-    
-    #menu-icon{
+@media (max-width: 768px) {
+
+    #menu-icon {
         display: block;
     }
-/* 
+
+    /* 
     57.26 */
-    
+
     .navbar {
-   
+
         display: flex;
     }
 
-    .navbar.active 
-    {
+    .navbar.active {
         display: block;
     }
 
     .navbar a {
-        display:block;
+        display: block;
         font-size: 2rem;
         margin: 3rem 0;
 
     }
-    .typeapple, .typeother{
+
+    .typeapple,
+    .typeother {
         width: 100%;
     }
-} 
+}
+
 /* 
 @media (max-width: 150px){
 
@@ -268,35 +259,38 @@ section
 } */
 
 
-@media (max-width: 350px){
+@media (max-width: 350px) {
 
-    h1{
+    h1 {
         font-size: 36px;
     }
+
     .title-page-content {
-    font-size: 2rem;
-    justify-content: center;
-    margin-top: 15rem;
-    display: flex;
-    padding: 5rem 1rem 5rem 1rem;
+        font-size: 2rem;
+        justify-content: center;
+        margin-top: 15rem;
+        display: flex;
+        padding: 5rem 1rem 5rem 1rem;
     }
-} 
-@media (max-width: 300px){
+}
+
+@media (max-width: 300px) {
 
     .imgbrands {
         margin-bottom: 25px;
         width: 23%;
     }
 
-    .btn{
+    .btn {
         padding: 7px;
     }
 
     .bxl-apple {
-    font-size: 8rem;
+        font-size: 8rem;
     }
 
-    .typeapple, .typeother {
+    .typeapple,
+    .typeother {
         padding: 15px;
     }
 }

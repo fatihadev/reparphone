@@ -1,30 +1,34 @@
-* /* utilisé pour sélectionner tous les éléments d'un fichier HTML */
-{
+*
+
+/* utilisé pour sélectionner tous les éléments d'un fichier HTML */
+    {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
     outline: none;
-    scroll-behavior: smooth; /*Le défilement est doux et utilise une fonction de minutage définie*/
+    scroll-behavior: smooth;
+    /*Le défilement est doux et utilise une fonction de minutage définie*/
     font-family: 'Poppins', sans-serif;
-   
+
 }
 
-:root /*utile lorsqu'on déclare des propriétés CSS personnalisées globales*/
+:root
+/*utile lorsqu'on déclare des propriétés CSS personnalisées globales*/
 
-{
- 
-    
+    {
+
+
     /* --bg-color: rgb(47, 47, 78);
     --second-bg-color: grey;
     --text-color: white;
     --main-color: 	#3f7b79; */
 
-    --bg-color:#1e5397;
+    --bg-color: #1e5397;
     --second-bg-color: #0A6AEC;
     --text-color: rgb(255, 255, 255);
-    --main-color: 	#F5C00C;
+    --main-color: #F5C00C;
 
     /* --bg-color:#00e1ff;
     --second-bg-color: #0A6AEC;
@@ -34,24 +38,22 @@
 
 html {
     font-size: 65%;
-    overflow-x: hidden; /*Le contenu est rogné afin de tenir horizontalement dans la boîte de remplissage*/
+    overflow-x: hidden;
+    /*Le contenu est rogné afin de tenir horizontalement dans la boîte de remplissage*/
 }
 
-body
-{
+body {
     background: var(--bg-color);
     color: var(--text-color);
 }
 
-section
-{
-    min-height: 80vh ;
+section {
+    min-height: 80vh;
     padding: 10rem 9% 2rem;
- 
+
 }
 
-.header
-{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -64,28 +66,24 @@ section
     z-index: 100;
 }
 
-.header.sticky
-{
+.header.sticky {
     border-bottom: 1.rem solid rgba(0, 0, 0);
 }
 
-.logo
-{
-    font-size: 2.5rem ;
+.logo {
+    font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
 }
 
-.logoimg 
-{
-    
+.logoimg {
+
     width: 69px;
 
 }
 
-.navbar a 
-{
+.navbar a {
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
@@ -93,11 +91,10 @@ section
 }
 
 .navbar a:hover,
-.navbar a.active
-{
+.navbar a.active {
 
     color: var(--main-color);
-   
+
 }
 
 .title-page-content {
@@ -112,7 +109,7 @@ section
 
 }
 
-h1{
+h1 {
     font-size: 23px;
 }
 
@@ -123,12 +120,11 @@ h1{
 }
 
 
-.text
-{
+.text {
     font-size: 25px;
 }
 
-.typing-container{    
+.typing-container {
     font-size: 25px;
 }
 
@@ -136,13 +132,9 @@ span {
     color: var(--main-color);
 }
 
-@media (max-width:319px){
+@media (max-width:319px) {
     .title-page-content {
-        font-size: 1.2rem;}
+        font-size: 1.2rem;
+    }
 
 }
-
-
-
-
-
