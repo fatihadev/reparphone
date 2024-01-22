@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const changingText = document.getElementById('changingText');
     const dynamicWord = document.getElementById('dynamicWord');
-    const words = ['Reparateurs', 'Spécialiste', 'Rigoureux'];
+    const words = ['Reparateurs', 'Spécialistes', 'Rigoureux'];
     let wordIndex = 0;
 
     function typeAndDelete() {
