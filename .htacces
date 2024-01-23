@@ -1,3 +1,6 @@
 RewriteEngine On
 RewriteCond  %{HTTP_HOST} ^.*$ 	[NC]
 RewriteRule  ^  https://www.reparphone-iphone/  [R=301,L,NE,QSA]
+<!-- RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.reparphone-iphone.ovh/$1 [R,L] -->
