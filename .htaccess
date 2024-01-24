@@ -1,3 +1,8 @@
 RewriteEngine On
+
+# Redirection vers HTTPS
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.reparphone-iphone.fr/$1 [R,L]
+
+# Redirection de la racine vers votre page d'accueil
+RewriteRule ^$ /votre-page-daccueil.html [L]
